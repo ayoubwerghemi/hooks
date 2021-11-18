@@ -4,10 +4,30 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.all{
+ display: flex;
+ flex-direction: row;
+ margin-left: 200px;
+ 
+ 
+
+}
+
+.card{
+  margin: 10px ;
+  align-content: center;
+
+  
+}
+.App{
+  background-color:blueviolet;
 }
